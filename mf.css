@@ -1,0 +1,297 @@
+#box{
+    position:absolute;
+    top:50%;
+	left:50%;
+	margin-left:-60px;
+	margin-top:-60px;
+	-webkit-animation-name:animation;
+	-webkit-animation-timing-function:ease-in-out;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-duration:3s;
+	-webkit-transform-style:preserve-3d;
+	-webkit-transform-origin:60px 60px 0;
+
+}
+/*animationd的关键帧*/
+@-webkit-keyframes animation{
+	from,to{}
+	16%{-webkit-transform:rotateY(-90deg);}
+	33%{-webkit-transform:rotateY(-90deg)rotateZ(135deg);}
+	50%{-webkit-transform:rotateY(225deg)rotateZ(135deg);}
+	66%{-webkit-transform:rotateY(135deg)rotateX(135deg);}
+	83%{-webkit-transform:rotateX(135deg);}
+}
+
+/*第一面*/
+.one{
+	position:absolute;
+	-webkit-transform:translateZ(60px);
+}
+.one div{
+	height:20px;
+	width:20px;
+	border-radius:10px;
+	padding:10px;
+	background-color: yellowgreen;
+	
+}
+.one1{
+	position:absolute;
+	float:left;
+	margin-left:40px;
+	
+}
+.one2{
+	position:absolute;
+	float:left;
+	margin-left:80px;
+}
+.one4{
+	position:absolute;
+	float:left;
+	margin-left:40px;
+}
+.one5{
+	position:absolute;
+	float:left;
+	margin-left:80px;
+}
+.one7{
+	position:absolute;
+	float:left;
+	margin-left:40px;
+}
+.one8{
+	position:absolute;
+	float:left;
+	margin-left:80px;
+}
+/*第二面*/
+.two{
+	position:absolute;
+	-webkit-transform:rotateX(-90deg) translateZ(60px);
+}
+.two div{
+	height:20px;
+	width:20px;
+	border-radius:10px;
+	padding:10px;                                    
+	background-color: red;
+	
+}
+.two1{
+	position:absolute;            
+	float:left;
+	margin-left:40px;
+	
+}
+.two2{
+	position:absolute;
+	float:left;
+	margin-left:80px;
+}
+.two4{
+	position:absolute;
+	float:left;
+	margin-left:40px;
+}
+.two5{
+	position:absolute;
+	float:left;
+	margin-left:80px;
+}
+.two7{
+	position:absolute;
+	float:left;
+	margin-left:40px;
+}
+.two8{
+	position:absolute;
+	float:left;
+	margin-left:80px;
+}
+
+/*第三面*/
+.three{
+	position:absolute;
+	-webkit-transform:rotateX(90deg) translateZ(60px);
+}
+.three div{
+	height:20px;
+	width:20px;
+	border-radius:10px;
+	padding:10px;                                    
+	background-color:yellow;
+	
+}
+.three1{
+	position:absolute;            
+	float:left;
+	margin-left:40px;
+	
+}
+.three2{
+	position:absolute;
+	float:left;
+	margin-left:80px;
+}
+.three4{
+	position:absolute;
+	float:left;
+	margin-left:40px;
+}
+.three5{
+	position:absolute;
+	float:left;
+	margin-left:80px;
+}
+.three7{
+	position:relative;
+	float:left;
+	margin-left:40px;
+}
+.three8{
+	position:absolute;
+	float:left;
+	margin-left:80px;
+}
+/*第四面*/
+.four
+{
+  position:absolute;
+  -webkit-transform:translateZ(-60px);
+}
+.four div{
+	height:20px;
+	width:20px;
+	border-radius:10px;
+	padding:10px;                                    
+	background-color:orange;
+	
+}
+.four1{
+	position:absolute;            
+	float:left;
+	margin-left:40px;
+	
+}
+.four2{
+	position:absolute;
+	float:left;
+	margin-left:80px;
+}
+.four4{
+	position:absolute;
+	float:left;
+	margin-left:40px;
+}
+.four5{
+	position:absolute;
+	float:left;
+	margin-left:80px;
+}
+.four7{
+	position:absolute;
+	float:left;
+	margin-left:40px;
+}
+.four8{
+	position:absolute;
+	float:left;
+	margin-left:80px;
+}
+
+/*第五面*/
+.five
+{
+  position:absolute;
+  -webkit-transform:rotateY(-90deg) rotateZ(90deg) translateZ(20px)
+  translateX(-40px);
+}
+.five div{
+	height:20px;
+	width:20px;
+	border-radius:10px;
+	padding:10px;                                    
+	background-color:blue;
+	
+}
+.five1{
+	position:absolute;            
+	float:left;
+	margin-left:40px;
+	
+}
+.five2{
+	position:absolute;
+	float:left;
+	margin-left:80px;
+}
+.five4{
+	position:absolute;
+	float:left;
+	margin-left:40px;
+}
+.five5{
+	position:absolute;
+	float:left;
+	margin-left:80px;
+}
+.five7{
+	position:absolute;
+	float:left;
+	margin-left:40px;
+}
+.five8{
+	position:absolute;
+	float:left;
+	margin-left:80px;
+}
+
+/*第六面*/
+.six
+{
+  position:absolute;
+  -webkit-transform: rotateY(90deg) translateZ(100px)
+  translateX(-40px);
+
+}
+.six div{
+	height:20px;
+	width:20px;
+	border-radius:10px;
+	padding:10px;                                    
+	background-color:green;
+	0
+}
+.six1{
+	position:absolute;            
+	float:left;
+	margin-left:40px;
+	
+}
+.six2{
+	position:absolute;
+	float:left;
+	margin-left:80px;
+}
+.six4{
+	position:absolute;
+	float:left;
+	margin-left:40px;
+}
+.six5{
+	position:absolute;
+	float:left;
+	margin-left:80px;
+}
+.six7{
+	position:absolute;
+	float:left;
+	margin-left:40px;
+}
+.six8{
+	position:absolute;
+	float:left;
+	margin-left:80px;
+}
